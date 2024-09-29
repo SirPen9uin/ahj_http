@@ -1,0 +1,35 @@
+{
+  "name": "ahj_http",
+  "version": "1.0.0",
+  "description": "Homework: https://github.com/netology-code/ahj-homeworks/tree/AHJ-50/http#helpdesk",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sirpen9uin/ahj_http.git"
+  },
+  "author": "neondoll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirpen9uin/ahj_http/issues"
+  },
+  "homepage": "https://github.com/sirpen9uin/ahj_http#readme",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "@stylistic/eslint-plugin": "^2.3.0",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0"
+  }
+}
